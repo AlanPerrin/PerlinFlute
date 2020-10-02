@@ -27,7 +27,7 @@ function setup() {
     cols = floor(width / scl);
     rows = floor(height / scl);
     fr = createP('');
-    bg = color('rgba(255, 255, 255, 1)');
+    bg = color('rgba(0, 0, 0, 1)');
 
 
     flowfield = new Array(cols * rows);
